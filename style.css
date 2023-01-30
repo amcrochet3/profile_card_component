@@ -1,0 +1,165 @@
+body {
+    background-color: #19a1ae;
+    overflow: hidden;
+}
+
+#top-circle {
+    left: -878.29px;
+    position: absolute;
+    top: -629.16px;
+    transform: rotate(-20deg);
+    z-index: -1;
+}
+
+#bottom-circle {
+    left: 126px;
+    overflow: hidden;
+    position: absolute;
+    top: 206px;
+    z-index: -1;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 374px;
+    margin: 173px auto 173px auto;
+    position: relative;
+    width: 350px;
+}
+
+#card-pattern {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#pfp {
+    border: 5px solid #ffffff;
+    border-radius: 100%;
+    display: inline-block;
+    left: calc(50% - 96px/2);
+    position: absolute;
+    top: calc(50% - 96px/2 - 47px);
+}
+
+#name {
+    color: #2e3349;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    left: 13%;
+    line-height: 22px;
+    position: absolute;
+    right: 22.96%;
+    text-align: center;
+    top: calc(50% - 17px/2 + 20px);
+}
+
+#age {
+    color: #6b7082;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    position: absolute;
+    right: 31.37%;
+    text-align: center;
+    top: calc(50% - 17px/2 + 20px);
+}
+
+#location {
+    color: #6b7082;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    left: 42.86%;
+    line-height: 17px;
+    position: absolute;
+    right: 42.86%;
+    text-align: center;
+    top: calc(50% - 17px/2 + 64.5px);
+}
+
+#followers-num {
+    color: #2e3349;
+    display: inline-block;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    left: 10.34%;
+    line-height: 22px;
+    position: absolute;
+    right: 63.64%;
+    text-align: center;
+    top: calc(50% - 18px/2 + 98px);
+}
+
+#followers {
+    color: #6b7082;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 12px;
+    position: absolute;
+    right: 68.54%;
+    text-align: center;
+    top: calc(50% - 12px/2 + 138px);
+}
+
+#likes-num {
+    color: #2e3349;
+    display: inline-block;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    position: absolute;
+    right: 43.54%;
+    text-align: center;
+    top: calc(50% - 18px/2 + 98px);
+}
+
+#likes {
+    color: #6b7082;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 12px;
+    position: absolute;
+    right: 45.54%;
+    text-align: center;
+    top: calc(50% - 12px/2 + 138px);
+}
+
+#photos-num {
+    color: #2e3349;
+    display: inline-block;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    position: absolute;
+    right: 18.54%;
+    text-align: center;
+    top: calc(50% - 18px/2 + 98px);
+}
+
+#photos {
+    color: #6b7082;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 12px;
+    position: absolute;
+    right: 17.54%;
+    text-align: center;
+    top: calc(50% - 12px/2 + 138px);
+}
+
+.attribution {
+    bottom: 0;
+    position: absolute;
+}
